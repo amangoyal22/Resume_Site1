@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <title>Aman Goyal</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-user"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-file"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-briefcase"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-envelope"></i></a></li>
+						</ul>
+					</div>
+
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
+
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>Aman Goyal</h1>
+					<h3>Web Designer | aman.goyalwd@gmail.com</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p>I'm web designer & back-end developer with 2 years of web development experience. I'm interested in all kinds of back-end development also my major focus is on functioning of web apps and data handling.</p>
+				</div>
+				<div class="col-lg-3">
+					<p><a href="1.pdf"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section id="resume" name="resume"></section>
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>B.Tech in Computer Science</t><br/>
+						VIT University <br/>
+						<i>4 Years Course</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>GRADUATING IN MAY 2019</sm><br/>
+					<imp><sm>IN PROGRESS</sm></imp>
+					</p>
+				</div>
+		</div>
+		<br>
+		<hr>
+	</div>
+    <div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Web Designer</t><br/>
+						BRAV.0 <br/>
+					</p>
+					<p><more>BRAV.0 is a group created by my friends .Together we created a andriod application and a web app for Ezit .</more></p>
+				</div>
+		</div>
+        <br>
+		<hr>
+	</div>
+
+<div id="skillswrap">
+		<div class="container">
+			<div class="row">
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5>SKILLS</h5>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="javascript" height="130" width="130"></canvas>
+						<p>Javascript</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 75,
+										color:"#1abc9c"
+									},
+									{
+										value : 25,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="bootstrap" height="130" width="130"></canvas>
+						<p>Php</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 90,
+										color:"#1abc9c"
+									},
+									{
+										value : 10,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="MySQL" height="130" width="130"></canvas>
+						<p>MySQL</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 72,
+										color:"#1abc9c"
+									},
+									{
+										value : 28,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("MySQL").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="html" height="130" width="130"></canvas>
+						<p>HTML/CSS</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 65,
+										color:"#1abc9c"
+									},
+									{
+										value : 35,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="C" height="130" width="130"></canvas>
+						<p>C</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 70,
+										color:"#1abc9c"
+									},
+									{
+										value : 30,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("C").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+					<div class="col-lg-3 centered">
+						<canvas id="JAVA" height="130" width="130"></canvas>
+						<p>JAVA</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 45,
+										color:"#1abc9c"
+									},
+									{
+										value : 55,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("JAVA").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
+
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
+
+
+
+	<section id="work" name="work"></section>
+	<!--PORTFOLIO DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>PROJECTS</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><img class="img-responsive" src="assets/img/port01.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+                    <t class="desc"><p class="desc">MUSIC STORE APPLICATION</p></t>
+				<p><more>Designed application using JAVA platform for pc using SQL DATABASE.To help the user to maintain employee and customer records <br/><br/>
+					<sm><i class="icon-tag"></i>Coding</sm></more>
+				</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="assets/img/port02.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+                    <t class="desc"><p class="x">OS ALGORITHM</p></t>
+					<p><more>Developed a full algorithm for process management of OS using C which manages all the heavy and small process efficient manner to complete them is most efficient
+                        manner<br/><br/>
+						<sm><i class="icon-tag"></i>Algorithm Developer</sm></more>
+					</p>
+				</div>
+				
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><img class="img-responsive" src="assets/img/port03.jpg" alt=""></p>
+				</div>
+				<div class="col-lg-3">
+                    <t class="desc"><p class="x">EZIT</p></t>
+					<p><more>Developed a website for promotion of Ezit mobile application. <br/><br/>
+						<sm><i class="icon-tag"></i> Web designer</sm></more>
+					</p>
+				</div>
+		
+		</div>
+		<br>
+		<br>
+	</div>
+
+
+	<section id="contact" name="contact"></section>
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						aman.goyalwd@gmail.com <br/>
+					</p>
+					<p><t>Address</t><br/>
+                        A-447 <br/>
+                        Pathik Nagar, Bhilwara<br/>
+                        Rajasthan, India.<br/>
+					</p>
+					<p><t>Phone</t><br/>
+						+91-9790052239 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<a href="https://www.facebook.com/aman.goyalwd" target="_blank"><i class="icon-facebook"></i></a>
+						<a href="https://www.linkedin.com/in/aman-goyal-32541a115" target="_blank"><i class="icon-linkedin"></i></a>
+
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="c">
+		<div class="container">
+			<p>Created by <a href="#">Aman Goyal</a></p>
+		</div>
+	</div>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
