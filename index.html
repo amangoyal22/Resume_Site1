@@ -18,7 +18,6 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
-
 	<div id="section-topbar">
 		<div id="topbar-inner">
 			<div class="container">
@@ -223,13 +222,29 @@
 								var myDoughnut = new Chart(document.getElementById("JAVA").getContext("2d")).Doughnut(doughnutData);
 						</script>
 					</div>
+					<div class="col-lg-3 col-lg-offset-3 centered">
+						<canvas id="python" height="130" width="130"></canvas>
+						<p>PYTHON</p>
+						<br>
+						<script>
+							var doughnutData = [
+									{
+										value: 55,
+										color:"#1abc9c"
+									},
+									{
+										value : 45,
+										color : "#ecf0f1"
+									}
+								];
+								var myDoughnut = new Chart(document.getElementById("python").getContext("2d")).Doughnut(doughnutData);
+						</script>
+					</div>
 
 			</div><!--/.row -->
 			<br>
 		</div><!--/.container -->
 	</div><!--/ #skillswrap -->
-
-
 
 	<section id="work" name="work"></section>
 	<!--PORTFOLIO DESCRIPTION -->
@@ -253,8 +268,7 @@
 				</div>
 				<div class="col-lg-3">
                     <t class="desc"><p class="x">OS ALGORITHM</p></t>
-					<p><more>Developed a full algorithm for process management of OS using C which manages all the heavy and small process efficient manner to complete them is most efficient
-                        manner<br/><br/>
+					<p><more>Developed a full algorithm for process management of OS using C which manages all the heavy and small process efficient manner to complete them is most efficient manner<br/><br/>
 						<sm><i class="icon-tag"></i>Algorithm Developer</sm></more>
 					</p>
 				</div>
@@ -297,10 +311,11 @@
 					</p>
 				</div>
 				<div class="col-lg-3">
-					<p><sm>SOCIAL LINKS</sm></p>
+                    <p><sm><t>SOCIAL LINKS</t></sm></p>
 					<p>
 						<a href="https://www.facebook.com/aman.goyalwd" target="_blank"><i class="icon-facebook"></i></a>
 						<a href="https://www.linkedin.com/in/aman-goyal-32541a115" target="_blank"><i class="icon-linkedin"></i></a>
+						<a href="https://github.com/amangoyal22" target="_blank"><i class="icon-github"></i></a>
 
 					</p>
 				</div>
